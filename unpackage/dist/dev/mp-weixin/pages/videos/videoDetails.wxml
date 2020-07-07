@@ -1,0 +1,1 @@
+<view class="videoContent data-v-5176b488"><view class="videoTitle data-v-5176b488"><text class="data-v-5176b488">{{pages.title}}</text></view><view class="videoImg data-v-5176b488"><image class="imgs data-v-5176b488" src="{{pages.imgs}}" mode></image></view><view class="videoTest data-v-5176b488">{{''+pages.test+''}}</view></view>

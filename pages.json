@@ -1,0 +1,84 @@
+{
+	"pages": [//appleID:wx9f62bce6fd01765a	//githubApi的token：a68cb722740fae21167cff4f2fff49f53ebcaed8
+		
+		{
+			"path": "pages/index/index",
+		    "style" : {
+				"navigationBarTitleText": "美好生活"
+			}
+		},
+		{
+		    "path" : "pages/music/music",
+		    "style" : {
+				"navigationBarTitleText": "音乐"
+			}
+		},
+        
+        {
+            "path" : "pages/music/playMusic",
+            "style" : {
+        		"navigationBarTitleText": "音乐"
+        	}
+        },
+		{
+		    "path" : "pages/videos/videos",
+		    "style" : {
+				"navigationBarTitleText": "电影",
+				"app-plus":{
+					"scrollIndicator":"none"
+				}
+			}
+		},
+	    {
+            "path" : "pages/videos/videoDetails",
+            "style" : {
+				"navigationBarTitleText": "电影简介"
+			}
+        },
+		{
+            "path" : "pages/peoples/peoples",
+            "style" : {
+				"navigationBarTitleText": "达人"
+			}
+        }
+    ],
+	"requiredBackgroundModes":["audio","backgroundAudioManager"],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#4EEAAB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		/* "height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"spacing": "3px", */
+		"list": [
+		{
+			"pagePath": "pages/videos/videos",
+			"selectedColor":"#4eeaab",
+			"iconPath": "static/imgs/tabberImgs/video1.png",
+			"selectedIconPath": "static/imgs/tabberImgs/video1-1.png",
+			"text": "电影"
+		},
+		{
+			"pagePath": "pages/music/music",
+			"selectedColor":"#4eeaab",
+			"iconPath": "static/imgs/tabberImgs/music1.png",
+			"selectedIconPath": "static/imgs/tabberImgs/music1-1.png",
+			"text": "音乐"
+		},
+		{
+			"pagePath": "pages/peoples/peoples",
+			"selectedColor":"#4eeaab",
+			"iconPath": "static/imgs/tabberImgs/img1.png",
+			"selectedIconPath": "static/imgs/tabberImgs/img1-1.png",
+			"text": "达人"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#232629",
+		"backgroundColor": "#FFFFFF"
+	}
+}
